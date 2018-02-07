@@ -18,6 +18,10 @@ const ItemSchema = new Schema({
     type: String,
     trim: true
   },
+  details: {
+    type: String,
+    trim: true
+  },
   creator: {
     type: Schema.Types.ObjectId,
     ref: 'user'
